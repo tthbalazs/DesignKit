@@ -1,7 +1,6 @@
 import XCTest
-
 import DesignKitTests
 
 var tests = [XCTestCaseEntry]()
-tests += DesignKitTests.allTests()
+tests += ContainerViewTests.allTests()
 XCTMain(tests)
